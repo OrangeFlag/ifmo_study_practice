@@ -2,103 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b754fdc0-dc8d-44b9-8b5d-0602794ed9f1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/Busy'sDiner1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/src/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/src/model/Order.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/src/ui/Diner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/Busy'sDiner2.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Chef.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Order.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Server.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/ui/Diner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/Busy'sDiner3.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/Chef.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/Dish.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/Host.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/Order.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/Server.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/ui/Diner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/.idea/CoffeeMaker.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/CoffeeMaker.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/src/main/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/CoffeeMaker.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/BeansAmountException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/src/test/CoffeeMakerTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/BingoStarter.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/Game.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/PlayerCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/observer_pattern/Observer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/observer_pattern/Subject.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/random/BingoNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/random/NumberSquare.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/random/RandomNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/ui/BingoUI.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/MonsterMazeStarter.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Monster.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Room.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Treasure.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/Game.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/MonsterMaze.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/RefactoredGame.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/SillyWordGameStarter.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/model/Phrase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/model/SillyWordGame.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/model/words/WordEntry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/model/words/WordEntryType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/ui/PhraseResource.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/ui/SillyWordGameUI.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/.idea/dictionaries/mickey.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/FitLifeGymChainOOD.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/GymChain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/cardio/CardioMachine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/cardio/Elliptical.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/cardio/IndoorBike.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/cardio/Treadmill.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/gym/DeluxeGym.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/gym/FitnessClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/gym/Gym.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/members/Member.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/members/MembershipLevel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/members/Visit.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/weights/Barbell.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/weights/Dumbbell.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/weights/Plate.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/weights/Weight.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/model/weights/WeightMachine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/ui/GymChainInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/src/ui/InfoManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/.idea/dictionaries/mickey.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/PetPairs.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/PetPairsStarter.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/src/model/Human.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/src/model/PetStore.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/src/model/pets/Bunny.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/src/model/pets/Cat.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/src/model/pets/Dog.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/src/model/pets/Parrot.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/src/model/pets/Pet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/src/ui/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PetPairsStarter/src/ui/PetPairs.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/NoCupsRemainingException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/NotEnoughBeansException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/StaleCoffeeException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/TooManyBeansException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/WaterException.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CoffeeMaker/src/model/CoffeeMaker.java" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/CoffeeMaker.java" />
+      <change beforePath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/BeansAmountException.java" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/BeansAmountException.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/PetPairsStarter/out/" />
@@ -112,38 +23,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeansAmountException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/BeansAmountException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoffeeMaker.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CoffeeMaker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/CoffeeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="525">
+              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,6 +67,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/BeansAmountException.java" />
+        <option value="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/TooManyBeansException.java" />
+        <option value="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/NotEnoughBeansException.java" />
+        <option value="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/NoCupsRemainingException.java" />
+        <option value="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/StaleCoffeeException.java" />
+        <option value="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/WaterException.java" />
+        <option value="$PROJECT_DIR$/CoffeeMaker/src/model/CoffeeMaker.java" />
       </list>
     </option>
   </component>
@@ -170,6 +86,9 @@
     <option name="x" value="333" />
     <option name="width" value="960" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -188,8 +107,6 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,10 +138,18 @@
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ifmo_study_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoffeeMaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,42 +290,43 @@
       <option name="presentableId" value="Default" />
       <updated>1518607248115</updated>
       <workItem from="1518607249329" duration="211000" />
+      <workItem from="1518607828079" duration="4310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211000" />
+    <option name="totallyTimeSpent" value="4521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="333" y="0" width="1926" height="1058" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,11 +340,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/CoffeeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,11 +366,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/TooManyBeansException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/StaleCoffeeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/NoCupsRemainingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/WaterException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/NotEnoughBeansException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/BeansAmountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/model/CoffeeMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
