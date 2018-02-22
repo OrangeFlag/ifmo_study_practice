@@ -2,14 +2,19 @@ package model;
 
 import model.pets.Pet;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+
 
 public class Human {
     private String name;
     private double spendibees;
+    private HashSet pets;
 
     public Human(String name) {
         this.name = name;
         this.spendibees = 0;
+        this.pets = new HashSet();
     }
 
     //getters
@@ -61,7 +66,7 @@ public class Human {
 
     //EFFECTS: returns the number of pets belonging to species
     public int numPetsOfSpecies(String species) {
-        //TODO 6
+        
         return 0;
     }
 
