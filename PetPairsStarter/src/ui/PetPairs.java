@@ -23,6 +23,7 @@ public class PetPairs {
         Human sally = new Human("Sally");
         Human jim = new Human("Jim");
 
+
         animals.add(cat);
         animals.add(dog);
         animals.add(parrot);
@@ -39,6 +40,7 @@ public class PetPairs {
         store.addPet(dog);
         store.addPet(parrot);
         store.addPet(cat);
+        store.displayAllPetsWithAttributes(true, false, 50.00);
 
         System.out.println();
 

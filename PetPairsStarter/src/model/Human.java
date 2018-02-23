@@ -9,7 +9,7 @@ import java.util.HashSet;
 public class Human {
     private String name;
     private double spendibees;
-    private HashSet pets;
+    private HashSet<Pet> pets;
 
     public Human(String name) {
         this.name = name;
@@ -66,8 +66,14 @@ public class Human {
 
     //EFFECTS: returns the number of pets belonging to species
     public int numPetsOfSpecies(String species) {
-        
-        return 0;
+        int i = 0;
+        for (Pet p : pets)
+        {
+            if (p.getSpecies().equals(species))
+                i += 1;
+        };
+
+        return i;
     }
 
 }

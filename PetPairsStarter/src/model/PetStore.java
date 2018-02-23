@@ -3,6 +3,7 @@ package model;
 import model.pets.Pet;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 
 public class PetStore {
@@ -32,6 +33,23 @@ public class PetStore {
             return pets.get(i);
         }
         return null;
+    }
+
+    public void displayAllPetsWithAttributes(boolean friendly, boolean needsAttention, double price) {
+        Collection<ArrayList<Pet>> allPets = animals.values();
+
+        for (ArrayList<Pet> PetsMas: allPets)
+        {
+            displayOneSpeciesWithAttributes(PetsMas, friendly, needsAttention, price);
+        };
+
+    }
+
+    public void displayOneSpeciesWithAttributes(ArrayList<Pet> petList, boolean friendly, boolean needsAttention, double price) {
+        for (Pet pet: petList){
+            if (pet.isFriendly() == friendly && pet.needsAttention() == needsAttention && pet.getPrice() <= price)
+            System.out.println("Has attributes: " + pet);
+        }
     }
 
 }
