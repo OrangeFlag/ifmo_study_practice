@@ -22,22 +22,22 @@ public class MonsterMaze {
 
         m3.setTreasure(t1);
 
-        r1.addRoom(r2);
-        r1.addRoom(r4);
-        r1.addMonster(m1);
+        r1.addChoise(r2);
+        r1.addChoise(r4);
+        r1.addChoise(m1);
 
-        r2.addRoom(r3);
-        r2.addRoom(r6);
+        r2.addChoise(r3);
+        r2.addChoise(r6);
 
-        r3.addRoom(r4);
-        r3.addMonster(m3);
+        r3.addChoise(r4);
+        r3.addChoise(m3);
 
-        r4.addRoom(r3);
-        r4.addRoom(r5);
+        r4.addChoise(r3);
+        r4.addChoise(r5);
 
-        r5.addMonster(m2);
+        r5.addChoise(m2);
 
-        r6.addTreasure(t1);
+        r6.addChoise(t1);
 
         Game g = new Game(r1);
     }

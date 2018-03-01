@@ -1,5 +1,6 @@
 package ui;
 
+import model.Choise;
 import model.Monster;
 import model.Room;
 import model.Treasure;
@@ -13,7 +14,7 @@ public class Game {
     private static final String STOP = "N";
     private static final String QUIT = "Q";
 
-    private Room current;
+    private Choise current;
     private Room start;
     private Scanner scanner;
     private boolean gameOver;
@@ -38,7 +39,7 @@ public class Game {
             if (roundOver())
                 offerAnotherRound();
             if (gameOver || roundOver()) break;
-            current.printNextChoices();
+            //current.printNextChoices();
         }
 
         System.out.println("You have escaped...");
@@ -83,32 +84,12 @@ public class Game {
     //MODIFIES: this
     //EFFECTS: displays the next option chosen from the options displayed by current room
     private void printNextChoiceById(int id) {
-        int monsterRange = current.getMonsterRange();
-        if (id < monsterRange) {
-            Monster m = current.getMonster(id);
-            m.printOutcome();
-            roundOver = true;
-            return;
-        }
-
-        id -= monsterRange;
-        int treasureRange = current.getTreasureRange();
-
-        if (id < treasureRange) {
-            Treasure t = current.getTreasure(id);
-            t.printOutcome();
-            roundOver = true;
-            return;
-        }
-
-        id -= treasureRange;
-        int roomRange = current.getRoomRange();
-
-        if (id < roomRange) {
-            current = current.getRoom(id);
+        if (id < current.getChoiseRange()) {
+            current = current.getChoise(id);
+            roundOver = current.printOutcome();
         } else {
             System.out.println(INVALID_CHOICE);
-        }
+        };
     }
 
     //EFFECTS: interprets user command to continue or quit game
@@ -120,6 +101,7 @@ public class Game {
                 break;
             case ANOTHER_ROUND:
                 current = start;
+                current.printOutcome();
                 roundOver = false;
                 break;
             default:
@@ -138,7 +120,7 @@ public class Game {
 
         System.out.println("For each set of options, enter the number corresponding to your choice.\n");
 
-        current.printNextChoices();
+        current.printOutcome();
     }
 
     //EFFECTS: produces true if the current choice has no more options

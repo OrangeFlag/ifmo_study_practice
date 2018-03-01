@@ -1,5 +1,6 @@
 package model;
 
+import model.observer_pattern.Observer;
 import model.random.BingoNumber;
 import model.random.NumberSquare;
 
@@ -7,8 +8,7 @@ import java.util.*;
 
 import static model.Game.CARD_SIZE;
 
-//TODO: implement Observer pattern
-public class PlayerCard {
+public class PlayerCard implements Observer {
 
     private List<NumberSquare> numbers;
     private List<Collection<Integer>> colIndices;
@@ -26,18 +26,6 @@ public class PlayerCard {
         }
     }
 
-    // TODO: refactor this method
-    //MODIFIES: this
-    //EFFECTS: checks whether bingo call matches a square in this card, stamps if so, and updates hasBingo
-    public void checkCallMatch(Object o){
-        BingoNumber bc = (BingoNumber) o;
-        int i = numberSquaresMatch(bc);
-        for (int j=0; j < i; j++) {
-            int index = getSquareIndexOfNextUnstamped(bc);
-            stampSquare(index);
-            checkIfBingo(index);
-        }
-    }
 
     //EFFECTS: returns true if player has column, row or diagonal stamped
     public boolean hasBingo(){
@@ -193,4 +181,15 @@ public class PlayerCard {
     }
 
 
+    @Override
+    public void update(Object o) {
+        BingoNumber bc = (BingoNumber) o;
+        int i = numberSquaresMatch(bc);
+        for (int j=0; j < i; j++) {
+            int index = getSquareIndexOfNextUnstamped(bc);
+            stampSquare(index);
+            checkIfBingo(index);
+        }
+
+    }
 }
