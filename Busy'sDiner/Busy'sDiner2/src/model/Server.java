@@ -29,7 +29,7 @@ public class Server {
     //EFFECTS: creates new order with the dish on the menu
     public Order takeOrder() { //5: signature
         System.out.println(PREFIX + "Taking order...");
-        Order o = new Order("Turkey club sandwich", currentOrderNumber++);
+        Order o = new Order(new Dish("Turkey club sandwich"), currentOrderNumber++);
         orders.add(o);
         System.out.print("Order taken: ");
         o.print();
@@ -38,13 +38,15 @@ public class Server {
 
     //EFFECTS: prints out a description of the dish on the menu
     public void describeDish() {
-        System.out.println("\"Our somewhat bland sandwich has bread, lettuce, tomato, " +
-                "cheddar cheese, turkey and bacon.\"");
+        for (Order _order : orders)
+        {
+            System.out.println("\"" + _order.getDishName() + " --- " + _order.getDescriptions() + "\"");
+        };
     }
 
     //EFFECTS: prints out a greeting
     public void greet() {
-        System.out.println("\"Hello and welcome to Busy's, the home of the mediocre turkey club sandwich.\"");
+        System.out.println("\"Hello and welcome to Busy's, the home of the trendy turkey club sandwich.\"");
     }
 
     //MODIFIES: this
